@@ -1,0 +1,42 @@
+{
+  "name": "@arcticshadow/eslint-config",
+  "version": "1.0.0",
+  "description": "Eslint Config for arcticShadow",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcticShadow/eslint-config.git"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "homepage": "https://github.com/arcticshadow/eslint-config#readme",
+  "peerDependencies": {
+    "@react-native-community/eslint-config": ">=3.2.0",
+    "@typescript-eslint/eslint-plugin": ">=5",
+    "@typescript-eslint/parser": ">=5",
+    "eslint": ">= 8",
+    "eslint-config-prettier": ">= 8",
+    "eslint-plugin-prettier": ">= 4",
+    "eslint-plugin-react": ">= 7",
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "typescript": ">=4"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-sonarjs": "^0.17.0",
+    "typescript": "^4.9.4"
+  }
+}

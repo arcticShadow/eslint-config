@@ -1,0 +1,38 @@
+name: Pull Request
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+      - run: npx markdownlint-cli2 "**/*.{md,markdown}" 
+
+  commit-lint:
+    name: conventional-commits-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: check-for-conventional-commits
+        id: check-for-cc
+        uses: agenthunt/conventional-commit-checker-action@v1.0.0
+        with: 
+          pr-body-regex: (.*\n)?(.*)
+
+  code-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+      - run: npm i
+      - run: npm run lint
+      
+      

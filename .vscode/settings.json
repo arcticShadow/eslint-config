@@ -1,0 +1,29 @@
+{
+  "[markdown]": {
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": true
+    }
+  },
+  
+  "[typescript][javascript][typescriptreact][javascriptreact]": {
+    "editor.formatOnSave": false,  
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "cSpell.words": [
+    "agenthunt",
+    "Atlassian",
+    "devs",
+    "Giflow",
+    "iaac",
+    "MADR",
+    "markdownlint",
+    "npm",
+    "sonarjs"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "ignores": [
+        ".github/CODEOWNERS"
+    ],
+    "config": {
+        "MD013": false
+    }
+}
