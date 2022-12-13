@@ -1,6 +1,6 @@
 module.exports = {
   // The Configs that we have chosen to extend
-  extends: ["./index.mjs", "plugin:react/recommended"],
+  extends: ["./index", "plugin:react/recommended"],
   env: {
     browser: true,
   },
