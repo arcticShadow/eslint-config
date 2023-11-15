@@ -30,13 +30,14 @@
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "^3.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.12.0",
-    "@typescript-eslint/parser": "^5.12.0",
-    "eslint": "^8.29.0",
-    "eslint-config-prettier": "^8.10.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-sonarjs": "^0.17.0",
-    "typescript": "^4.9.4"
-  }
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "typescript": "^5.2.2"
+  },
+  "packageManager": "pnpm@8.10.5"
 }
