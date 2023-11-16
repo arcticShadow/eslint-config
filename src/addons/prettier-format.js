@@ -3,4 +3,7 @@
  */
 module.export = {
   extends: ["plugin:prettier/recommended"],
+  rules: {
+    "prettier/prettier": "error",
+  },
 };
