@@ -14,6 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/arcticShadow/eslint-config.git"
   },
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*.js"
+  },
   "author": "",
   "license": "WTFPL",
   "homepage": "https://github.com/arcticshadow/eslint-config#readme",
